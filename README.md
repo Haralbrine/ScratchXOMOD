@@ -16,11 +16,11 @@
 <a href="https://scrooch-project.github.io/docs/#/demos" target="_blank" rel="noopener noreferrer">
   <img alt="Static Badge" src="https://img.shields.io/badge/Created-2_Scratch_Mods-orange?style=for-the-badge&logo=scratch&logoColor=%23ffab19&color=%23ffab19">
 </a>
-<a href="https://github.com/scrooch-project/Scrooch3-Template/commits" target="_blank" rel="noopener noreferrer">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/scrooch-project/Scrooch3-Template?style=for-the-badge&logo=github&logoColor=%23ffffff&label=Commits">
+<a href="https://github.com/scrooch-project/Scrooch3/commits" target="_blank" rel="noopener noreferrer">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/scrooch-project/Scrooch3?style=for-the-badge&logo=github&logoColor=%23ffffff&label=Commits">
 </a>
-<a href="https://github.com/scrooch-project/Scrooch3-Template/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/scrooch-project/scrooch3-template?style=for-the-badge&logo=cloudera&logoColor=%23ffffff&label=License&color=green">
+<a href="https://github.com/scrooch-project/Scrooch3/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/scrooch-project/Scrooch3?style=for-the-badge&logo=cloudera&logoColor=%23ffffff&label=License&color=green">
 </a>
 
 </p>
