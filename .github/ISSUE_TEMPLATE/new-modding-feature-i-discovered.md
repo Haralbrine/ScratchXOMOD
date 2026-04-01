@@ -1,7 +1,7 @@
 ---
 name: New Modding Feature I discovered
 about: What did you discover?
-title: "[MOD]"
+title: "[MOD] "
 labels: enhancement
 assignees: ''
 

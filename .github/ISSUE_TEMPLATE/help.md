@@ -1,7 +1,7 @@
 ---
 name: Help
 about: We're happy to help!
-title: "[HELP]"
+title: "[HELP] "
 labels: help wanted
 assignees: ''
 
