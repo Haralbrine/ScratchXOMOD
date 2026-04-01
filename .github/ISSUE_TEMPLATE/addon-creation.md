@@ -7,5 +7,8 @@ assignees: ''
 
 ---
 
-**What is your addon about?**
+**Name of your addon**
+I recommend ending this in .js as it just makes it look nice
+
+.**What is your addon about?**
 My Addon is about... maybe adding more features?
