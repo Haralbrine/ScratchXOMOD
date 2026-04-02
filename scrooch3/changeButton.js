@@ -6,7 +6,7 @@
 
     links.forEach(link => {
       // Change link
-      link.href = "https:/www.google.com";
+      link.href = "https://www.google.com";
 
       // Change text inside
       const span = link.querySelector(".button_content_3jdgj span");
