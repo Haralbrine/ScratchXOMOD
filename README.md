@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="https://scrooch-project.github.io">
-    <img alt="Scrooch Logo" src="https://avatars.githubusercontent.com/u/221273265?s=96&v=4">
+  <a href="https://scrooch-project.github.io/Scrooch3">
+    <img alt="Scrooch Logo" src="https://i.ibb.co/hJT4MsYR/costume1-2-1.png" width="150">
   </a>
 </p>
 
 <h1 align="center">
-  Scrooch 3
+  Scrooch 3 Developer Branch
 </h1>
 
 <p align="center">
-  An Easy Framework to make cool Scratch Mods!
+  This branch is used for testing Scrooch 3 features. Click the logo to open the beta version of Scrooch.
 </p>
 
 <p align="center">
