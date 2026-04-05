@@ -1,30 +1,29 @@
 (function () {
-  // change navbar background
-  document.querySelectorAll('div.menu-bar_menu-bar_JcuHF.box_box_2jjDp')
-  .forEach(el => {
-    el.style.backgroundColor = 'purple';
-  });
+  // ------------------------------
+  // Set your theme color here
+  // ------------------------------
+  const themeColor = 'purple'; // Example: 'purple', '#ff00ff', '#3498db', etc.
 
-  // also change feedback button text color
-  function updateButtonColors() {
-    const feedbackLinks = document.querySelectorAll(
-      'a.menu-bar_feedback-link_1BnAR'
-    );
-    feedbackLinks.forEach(link => {
-      const span = link.querySelector('.button_content_3jdgj span');
-      if (span) {
-        span.style.color = 'purple'; // sets text color to match navbar
-      }
-    });
+  // ------------------------------
+  // Function to apply the theme
+  // ------------------------------
+  function applyTheme() {
+    // Change navbar background
+    document.querySelectorAll('div.menu-bar_menu-bar_JcuHF.box_box_2jjDp')
+      .forEach(el => el.style.backgroundColor = themeColor);
+
+    // Change feedback button text color
+    document.querySelectorAll('a.menu-bar_feedback-link_1BnAR')
+      .forEach(link => {
+        const span = link.querySelector('.button_content_3jdgj span');
+        if (span) span.style.color = themeColor;
+      });
   }
 
-  // run once
-  updateButtonColors();
+  // Apply theme immediately
+  applyTheme();
 
-  // keep checking for dynamic UI changes
-  const observer = new MutationObserver(updateButtonColors);
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
+  // Re-apply on DOM changes (dynamic editor)
+  const observer = new MutationObserver(applyTheme);
+  observer.observe(document.body, { childList: true, subtree: true });
 })();
