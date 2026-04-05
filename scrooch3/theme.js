@@ -1,30 +1,31 @@
 (function () {
-  // change navbar background
-  document.querySelectorAll('div.menu-bar_menu-bar_JcuHF.box_box_2jjDp')
-  .forEach(el => {
-    el.style.backgroundColor = 'purple';
-  });
+  // === Change this value to whatever color you want ===
+  const navColor = '#3498db'; // example: blue
 
-  // also change feedback button text color
-  function updateButtonColors() {
-    const feedbackLinks = document.querySelectorAll(
-      'a.menu-bar_feedback-link_1BnAR'
-    );
+  if (!navColor) return; // do nothing if variable is empty
+
+  // function to apply colors
+  function applyColors() {
+    // set navbar background
+    document.querySelectorAll('div.menu-bar_menu-bar_JcuHF.box_box_2jjDp')
+      .forEach(el => {
+        el.style.backgroundColor = navColor;
+      });
+
+    // set feedback button color
+    const feedbackLinks = document.querySelectorAll('a.menu-bar_feedback-link_1BnAR');
     feedbackLinks.forEach(link => {
       const span = link.querySelector('.button_content_3jdgj span');
       if (span) {
-        span.style.color = 'purple'; // sets text color to match navbar
+        span.style.color = navColor;
       }
     });
   }
 
-  // run once
-  updateButtonColors();
+  // run immediately
+  applyColors();
 
-  // keep checking for dynamic UI changes
-  const observer = new MutationObserver(updateButtonColors);
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
+  // observe dynamic DOM changes (like editor reload)
+  const observer = new MutationObserver(applyColors);
+  observer.observe(document.body, { childList: true, subtree: true });
 })();
