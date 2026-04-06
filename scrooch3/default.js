@@ -23,9 +23,9 @@
             const arrayBuffer = await response.arrayBuffer();
             await window.vm.loadProject(arrayBuffer);
 
-            console.log("✅ Default project loaded!");
+            console.log("✅ CattyMod default project loaded!");
         } catch (err) {
-            console.error("❌ Error loading default project:", err);
+            console.error("❌ Error loading CattyMod project:", err);
         }
     }
 
