@@ -18,6 +18,15 @@
         const span = link.querySelector('.button_content_3jdgj span');
         if (span) span.style.color = themeColor;
       });
+
+    // Change extension button (background + border + outline)
+    document.querySelectorAll('.gui_extension-button-container_b4rCs.box_box_2jjDp button.gui_extension-button_2T7PA')
+      .forEach(b => {
+        b.style.setProperty('background-color', themeColor, 'important');
+        b.style.setProperty('border', '2px solid ' + themeColor, 'important');
+        b.style.setProperty('outline', '2px solid ' + themeColor, 'important');
+        b.style.setProperty('box-shadow', 'none', 'important');
+      });
   }
 
   // Apply theme immediately
