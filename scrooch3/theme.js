@@ -1,6 +1,6 @@
 (function () {
-  // Set your color here
-  const navColor = 'Purple'; // Example: DodgerBlue
+  // Set your main color here
+  const navColor = '#1E90FF'; // Example: DodgerBlue
 
   // Darken a hex color by a percentage (0-1)
   function darkenColor(hex, amount = 0.25) {
@@ -13,8 +13,9 @@
     return `rgb(${r},${g},${b})`;
   }
 
-  const smallBtnColor = darkenColor(navColor, 0.25);
-  const outlineColor = darkenColor(navColor, 0.4); // slightly darker for main button outline
+  // Automatically generate shades
+  const smallBtnColor = darkenColor(navColor, 0.25);   // for small buttons
+  const outlineColor = darkenColor(navColor, 0.4);     // for main button outlines
 
   function applyColors() {
     // Navbar
