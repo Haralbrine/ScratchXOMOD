@@ -33,7 +33,7 @@
 
 Get Started right now by going to the Documentation:
 
-[Scrooch 3 Documentation](https://scrooch-project.github.io/docs/#/setup/v3)
+[Scrooch 3 Documentation](https://github.com/scrooch-project/Scrooch3/wiki)
 
 ## Live Demo
 
