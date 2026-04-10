@@ -40,9 +40,7 @@ Get Started right now by going to the Documentation:
 
 ## Live Demo
 
-A Collection of Scrooch-based Mods can be found by [clicking here](https://scrooch-project.github.io/docs/#/demos).
+A Collection of Scrooch-based Mods can be found by [clicking here](https://github.com/scrooch-project/Scrooch3/wiki).
 
-## Links
-
-- [Documentation](https://scrooch-project.github.io/docs)
-- [Website](https://scrooch-project.github.io/)
+## Contributing
+Would you like to support Scrooch 3? If yes, which I would really love you to, use Issues to add Addons and new pages on Scrooch! I'd even shout-out you for supporting this project!
