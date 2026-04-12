@@ -29,11 +29,6 @@
 - No Desktop Software Required
 - Super Easy to setup with a Documentation
 
-> [!IMPORTANT]
-> Scrooch 3 needs contributors to add features as it is too hard for me to handle on my own! Please Help 🥺
-
-> [Click Here](https://github.com/scrooch-project/Scrooch3/blob/editor/README.md#contributing) to contribute! 💖
-
 ## Quick Start
 
 Get Started right now by going to the Documentation:
