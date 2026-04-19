@@ -36,23 +36,22 @@
         color: #4da3ff;
       }
 
-      #splash-spinner:after {
-        content: "";
-        display: block;
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-        border: 6px solid;
-        border-color: #1e90ff #005eff #1e90ff #005eff;
-        animation: splash-spinner 1.1s linear infinite;
-      }
+#splash-spinner:after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: #1e90ff #005eff #1e90ff #005eff;
+  animation: splash-spinner 1.1s linear infinite;
+}
 
       @keyframes splash-spinner {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
 
-      /* Editör Renklerini Ezme */
       [class*="menu-bar_menu-bar"] {
         background-color: #1e90ff !important;
       }
