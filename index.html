@@ -5,57 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google" value="notranslate">
     <meta name="description" content="PenguinMod is a TurboWarp mod that was made to add tons of cool stuff to allow for crazy projects." />
-    <title>PenguinMod - A mod of TurboWarp</title>
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-    
-      <link rel="manifest" href="manifest.webmanifest">
-    
+    <title>Scrooch 3 Dev</title>
+
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+    <link rel="manifest" href="./manifest.webmanifest">
+
     <style>
       #splash {
-        position: absolute; width: 100%; height: 100%; top: 0; left: 0;
-        display: flex; align-items: center; justify-content: center;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #ff4c4c;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #1e90ff; /* base blue */
+        background: #ffffff;
       }
-      .tw-loaded #splash, #splash-content { display: none; }
-      #splash[splash-theme="dark"] { background-color: #333; color: #fff; }
+
+      .tw-loaded #splash,
+      #splash-content {
+        display: none;
+      }
+
+      #splash[splash-theme="dark"] {
+        background-color: #1a1a1a;
+        color: #4da3ff;
+      }
+
       #splash-spinner:after {
-        content: " "; display: block; width: 64px; height: 64px;
-        border-radius: 50%; border: 6px solid; border-color: currentColor transparent currentColor transparent;
-        animation: splash-spinner 1.2s linear infinite;
+        content: "";
+        display: block;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        border: 6px solid;
+        border-color: #1e90ff #005eff #1e90ff #005eff; /* light + deep blue */
+        animation: splash-spinner 1.1s linear infinite;
       }
+
       @keyframes splash-spinner {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
       }
     </style>
+
     <link rel="dns-prefetch" href="https://trampoline.turbowarp.org/">
     <link rel="dns-prefetch" href="https://projects.scratch.mit.edu/">
     <link rel="dns-prefetch" href="https://assets.scratch.mit.edu/">
   </head>
+
   <body>
     <div id="splash" aria-hidden="true">
       <noscript>
         <h1>Enable JavaScript</h1>
       </noscript>
+
       <div id="splash-content">
         <div id="splash-spinner"></div>
-     </div>
+      </div>
     </div>
-    <script>
-      (function() {
-        document.querySelector('#splash-content').style.display = 'block';
-        
-        try {var localTheme = localStorage.getItem('tw:theme');} catch (e) {}
-        if (localTheme ? localTheme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches) document.querySelector('#splash').setAttribute('splash-theme', 'dark');
-        
-      })();
-    </script>
+
     <div id="app"></div>
-  <script src="js/vendors~addon-settings~credits~editor~embed~fullscreen~player.js"></script><script src="js/vendors~editor~embed~fullscreen~player.js"></script><script src="js/addon-settings~addons~editor~fullscreen~player.js"></script><script src="js/editor~embed~fullscreen~player.js"></script><script src="js/player.js"></script></body>
-  <script src="scrooch3/theme.js"></script>
-  <script src="scrooch3/changeButton.js"></script>
-  <script src="scrooch3/home.js"></script>
-  <script src="scrooch3/default.js"></script>
-  <script src="scrooch3/loading.js"></script>
+
+    <script src="./js/vendors~addon-settings~credits~editor~embed~fullscreen~player.js"></script>
+    <script src="./js/vendors~editor~embed~fullscreen~player.js"></script>
+    <script src="./js/addon-settings~addons~editor~fullscreen~player.js"></script>
+    <script src="./js/editor~embed~fullscreen~player.js"></script>
+    <script src="./js/player.js"></script>
+  </body>
 </html>
