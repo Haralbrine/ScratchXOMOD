@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="https://scrooch-project.github.io/Scrooch3">
-    <img alt="Scrooch Logo" src="https://i.ibb.co/hJT4MsYR/costume1-2-1.png" width="150">
+  <img alt="Scrooch Logo" src="https://i.ibb.co/hJT4MsYR/costume1-2-1.png" width="150">
   </a>
 </p>
 
@@ -9,7 +8,7 @@
 </h1>
 
 <p align="center">
-  This branch is used for testing Scrooch 3 features. Click the logo to open the beta version of Scrooch.
+  This branch is used for testing Scrooch 3 features.
 </p>
 
 <p align="center">
