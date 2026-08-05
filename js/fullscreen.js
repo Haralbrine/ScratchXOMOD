@@ -2383,8 +2383,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
-const PACKAGER_URL = 'https://Scrooch3.github.io/Scrooch3-Packager';
-const PACKAGER_ORIGIN = "https://Scrooch3.github.io";
+const PACKAGER_URL = 'https://turbowarp.org/Packager';
+const PACKAGER_ORIGIN = "https://scrooch-project.github.io";
 const readBlobAsArrayBuffer = blob => new Promise((resolve, reject) => {
   const fr = new FileReader();
   fr.onload = () => resolve(fr.result);
