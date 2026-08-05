@@ -9,7 +9,7 @@ var GUI =
 /******/ 		// add "moreModules" to the modules object,
 /******/ 		// then flag all "chunkIds" as loaded and fire callback
 /******/ 		var moduleId, chunkId, i = 0, resolves = [];
-/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 		for(;i < chunkIds.length; i++) {Scrooch3 is a Scratch Mod powered by Scrooch 3. Try it out by inputting a project ID or URL above or choosing a featured project below.
 /******/ 			chunkId = chunkIds[i];
 /******/ 			if(Object.prototype.hasOwnProperty.call(installedChunks, chunkId) && installedChunks[chunkId]) {
 /******/ 				resolves.push(installedChunks[chunkId][0]);
@@ -2383,8 +2383,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
-const PACKAGER_URL = 'https://Scrooch3.github.io/Scrooch3-Packager';
-const PACKAGER_ORIGIN = "https://Scrooch3.github.io";
+const PACKAGER_URL = 'https://turbowarp.org/Packager';
+const PACKAGER_ORIGIN = "https://scrooch-project.github.io";
 const readBlobAsArrayBuffer = blob => new Promise((resolve, reject) => {
   const fr = new FileReader();
   fr.onload = () => resolve(fr.result);
